@@ -39,7 +39,8 @@ $(function () {
     $(window).on('scroll', function () {
         let scr = $(this).scrollTop();
         if (scr >= main && scr < about) {
-            $('#header').css({ opacity: 0 });
+            $('#header').css({ opacity: 1 });
+            $('.gnb li').removeClass('on');
         }
         if (scr >= about && scr < skill) {
             $('#header').css({ opacity: 1 });
