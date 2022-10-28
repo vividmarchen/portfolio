@@ -36,7 +36,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 300;
+    z-index: 500;
 }
 
 .headerin {
@@ -92,10 +92,6 @@ ul li.on a {
     height: 100vh;
 }
 
-.main {
-    /* background: url(../img/background1.jpg)no-repeat center 100%; */
-}
-
 .main h1 {
     position: absolute;
     left: 200px;
@@ -137,10 +133,6 @@ ul li.on a {
     font-size: 36px;
     left: 900px;
     top: 200px;
-}
-
-.about {
-    /* background: url(../img/background2.jpg)no-repeat center 100%; */
 }
 
 .intro {
